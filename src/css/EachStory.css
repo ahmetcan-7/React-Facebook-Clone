@@ -1,0 +1,30 @@
+.EachStory{
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 7rem;
+    height: 12.5rem;
+    box-shadow: 0px 5px 17px -7px  rgba(0,0,0,0.8);
+    border-radius: 0.8rem;
+    margin-right: 0.8rem;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.EachStory:hover{
+    transform: scale(1.1);
+}
+
+.EachStory__avatar{
+    margin: 0.8rem;
+    border: 3px solid blue;
+}
+
+.EachStory h5{
+    color: white;
+    position: absolute;
+    bottom: 0.3rem;
+    left: 1rem;
+    font-size: 1rem;
+}

@@ -1,0 +1,27 @@
+
+.sideBarRow li{
+   display: flex;
+   margin-bottom: 0.8rem;
+   border-radius: 0.3rem;
+}
+
+
+.sideBarRow li a{
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+}
+
+.sideBarRow li p{
+    color: black;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.sideBarRow li:hover{
+    background-color: rgb(235, 235, 235); 
+}
+
+
+

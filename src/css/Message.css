@@ -1,0 +1,78 @@
+
+.message{
+    background-color: white; 
+    border-radius: 0.5rem;
+}
+.message__top{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.2rem;
+}
+
+.message__form{
+    width: 100%;
+}
+
+.message__form input{
+    border:none;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 62rem;
+    background-color: rgb(235, 235, 235); 
+}
+
+.first-child{
+    flex: 1;
+}
+
+.message__form input:focus{
+   outline:none;
+}
+
+.message__form button{
+    display: none;
+}
+
+.message__bottom{
+    display: flex;
+    padding-bottom: 0.5rem;
+    
+}
+
+.message__bottom li{
+    padding: 0.2rem 1.5rem;
+    border-radius: 0.5rem;
+    
+    
+}
+
+.message__bottom li:hover{
+    background-color: rgb(235, 235, 235); 
+    
+    
+}
+.message__bottom a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    
+}
+
+.message__bottom a span{
+    margin-left: 0.3rem;
+}
+
+.message__bottom li:first-child i{
+    color: red;
+}
+
+.message__bottom li:nth-child(2) i{
+    color: green;
+}
+
+.message__bottom li:last-child i{
+    color: rgb(226, 226, 0);
+}
