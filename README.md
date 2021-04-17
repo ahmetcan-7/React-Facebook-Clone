@@ -33,7 +33,7 @@
 
 ## Deploy
 This website is deployed on Firebase. [Click here](https://facebook-clone-6c668.web.app) to visit.
-You can also go direct this link: ```https://facebook-clone-6c668.web.app```
+<br>You can also go direct this link: ```https://facebook-clone-6c668.web.app```
 
 ## Screenshots
 ### Login
