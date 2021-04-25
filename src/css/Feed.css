@@ -11,3 +11,12 @@
     padding: 1rem 10rem;
     padding-bottom: 5rem;
 }
+
+@media only screen and (max-width: 1345px) {
+   
+    .feed__container{
+    padding: 1rem 1rem;
+    padding-bottom: 5rem;
+}
+
+}
