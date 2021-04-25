@@ -2,6 +2,7 @@
 .message{
     background-color: white; 
     border-radius: 0.5rem;
+    max-width: 44rem;
 }
 .message__top{
     display: flex;
@@ -24,7 +25,11 @@
 }
 
 .first-child{
-    flex: 1;
+    flex: 0.6;
+}
+
+.second-child{
+    flex: 0.4;
 }
 
 .message__form input:focus{

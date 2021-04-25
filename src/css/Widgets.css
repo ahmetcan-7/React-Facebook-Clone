@@ -1,3 +1,10 @@
 .widgets{
     flex: 0.33;
 }
+
+
+@media only screen and (max-width:915px){
+    .widgets{
+    display: none;
+    }
+}

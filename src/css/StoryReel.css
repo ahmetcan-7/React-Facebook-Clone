@@ -1,4 +1,12 @@
 .StoryReel{
     display: flex;
     margin-bottom: 2rem;
+    flex:1;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 10.5px;
+    }
 }

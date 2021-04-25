@@ -8,10 +8,7 @@ i{
     color:grey;
     font-size: 1.8rem;
 }
-header i:hover{
-    color: blue;
-    cursor:pointer;
-}
+
 
 .my_container{
     margin: 0.5rem 1rem;
@@ -79,6 +76,8 @@ form{
 }
 
 
+
+
 .header__center  i{
     padding: 0.3rem 3rem;
     border-radius: 0.8rem;
@@ -113,6 +112,7 @@ form{
 .Header__avatar:hover{
     background-color: rgb(235, 235, 235); 
     
+    
 }
 
 .Header__avatar h5{
@@ -120,6 +120,77 @@ form{
     font-size: 1rem;
     margin: 0;
     margin-left: 0.5rem;
+}
+
+.header__btn {
+    display: none;
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.header__btn:hover{
+    cursor: pointer;   
+}
+
+.header__btn i{
+  font-size: 2.5rem;
+}
+
+        
+        
+
+
+
+@media only screen and (max-width: 800px) {
+   
+    
+    .header__center{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1065px) {
+   
+    .header__btn {
+        display: block;
+        
+    }
+}
+@media only screen and (max-width: 1350px) {
+    html{
+        font-size: 14px;
+    }
+  .header form input{
+      display:none;
+      
+  }
+
+  
+  .header form{
+      padding: 0.4rem 0.6rem;
+      border-radius: 100%;
+  }
+
+  .header form i{
+     padding: 0;
+  }
+
+  .header__center ul,.header__right ul{
+    align-items: center;
+    height: 100%;
+ }
+
+ .header__form:hover{
+    cursor: pointer;
+ }
+
+ .form__active{
+     display:block;
+ }
+
+
 }
 
 
