@@ -39,7 +39,13 @@ This website is deployed on Firebase. [Click here](https://facebook-clone-6c668.
 ### Login
 ![login](https://i.ibb.co/6mHQd7y/Screenshot-2021-04-17-Facebook-App.png)
 ### Home
-![login](https://i.ibb.co/qnvRJFQ/main.png)
+![Home](https://i.ibb.co/HHfbWQb/web.png)
+### Tablet
+![Tablet](https://i.ibb.co/tL7fKt4/phone.png)
+![Tablet](https://i.ibb.co/F4znSHD/phone-open.png)
+### Phone
+![Phone](https://i.ibb.co/8xLfx7J/tablet.png)
+![Phone](https://i.ibb.co/hs12Sp2/tablet-open.png)
 
     
         
