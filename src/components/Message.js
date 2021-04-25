@@ -42,6 +42,7 @@ const Message = () => {
                     ></input>
 
                     <input
+                        className="second-child"
                         placeholder="Image URL"
                         value={imgURL}
                         onChange={(e) => setImgURL(e.target.value)}>

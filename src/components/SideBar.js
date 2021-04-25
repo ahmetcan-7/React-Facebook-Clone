@@ -4,10 +4,11 @@ import "../css/SideBar.css"
 import { Avatar } from "@material-ui/core"
 import { useStateValue } from "../contexts/StateProvider"
 
-const SideBar = () => {
+
+const SideBar = ({ carRef }) => {
     const [{ user }, dispatch] = useStateValue();
     return (
-        <div className="SideBar">
+        <div className="SideBar" ref={carRef}>
             <ul >
                 <a className="SideBar__avatar" href="#!">
                     <Avatar src={user.photoURL} />

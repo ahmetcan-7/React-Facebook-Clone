@@ -1,13 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react';
 import "../css/Header.css"
 import { Avatar } from "@material-ui/core"
 import { useStateValue } from "../contexts/StateProvider"
+import { useHistory } from "react-router-dom";
 
-const Header = () => {
+
+const Header = ({ carRef }) => {
 
     const [{ user }, dispatch] = useStateValue();
 
+    const [onOff, setOnOff] = useState(true)
+    const history = useHistory();
 
+    const linkCheck = (e) => {
+
+
+        if (onOff) {
+            carRef.current.style.display = "block";
+            history.push("/sidebar");
+        } else {
+            carRef.current.style.display = "none";
+            history.push("/");
+
+        }
+
+        setOnOff(!onOff);
+    }
+
+
+
+    window.addEventListener("resize", () => {
+        if (window.outerWidth > 1065) {
+            carRef.current.style.display = "block";
+        } else {
+            carRef.current.style.display = "none";
+        }
+    }
+
+    )
 
     return (
 
@@ -16,12 +46,18 @@ const Header = () => {
                 <div className="header__left">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/900px-Facebook_f_logo_%282019%29.svg.png" alt="" />
 
-                    <form>
+                    <form className="header__form">
                         <div>
                             <i className="bi bi-search " ></i>
                             <input type="text" placeholder="Search Facebook" />
                         </div>
                     </form>
+
+                    <button
+                        className="header__btn"
+                        onClick={linkCheck}
+                        type="button"
+                    ><i className="bi bi-list"></i></button >
 
                 </div>
 
@@ -59,6 +95,7 @@ const Header = () => {
                 </div>
             </div>
         </div>
+
     )
 }
 
